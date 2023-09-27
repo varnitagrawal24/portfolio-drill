@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+:root{
+    font-size: 18px;
+}
+body{
+    height: 100vb;
+    width: 100vw;
+    background-color: #F2F2F2;
+    padding: 2% 3%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+section{
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+/* profile */
+.profile{
+    max-width: 23rem;
+    height: 38rem;
+    padding: 1.5rem;
+}
+.profile .pic{
+    background-image: url('/images/billy-profile.png');
+    max-width: 20.1rem;
+    height: 19.9rem;
+    background-size: 65rem;
+    background-position: -22.5rem -9rem;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.profile .details{
+    margin-top: 1.3rem;
+}
+.profile .name{
+    color: #4F4F4F;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+.profile .position{
+    font-weight: 500;
+    color: #828282;
+}
+.profile .contacts{
+    color: #4F4F4F;
+    margin-top: 1.5rem;
+}
+.contacts i{
+    margin-right: 1rem;
+}
+.contacts .email{
+    margin-bottom: .5rem;
+}
+.profile .description{
+    color: #828282;
+    margin-top: 2rem;
+}
+
+/* experience */
+.experience{
+    max-width: 23rem;
+    padding: 1.5rem 1.5rem;
+}
+.company{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.experience .heading{
+    font-size: 1.3rem;
+    color: #4F4F4F;
+    margin-bottom: 1rem;
+}
+.company img{
+    height: 4rem;
+    width: 4rem;
+}
+.company-info .company-time{
+    color: #828282;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+.company-name{
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+.company-detail{
+    font-size: .9rem;
+    color: #828282;
+}
+
+/* project */
+.project{
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.project-head{
+    padding: 1.2rem;
+    font-size: 1rem;
+    color: #4F4F4F;
+}
+.project-section{
+    display: flex;
+    gap: 1.8rem;
+    padding: 1rem;
+}
+.project-section img{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+.project-section .project-tech{
+    font-size: .89rem;
+    color: #4F4F4F;
+    margin-right: .5rem;
+}
+.project-section .project-name{
+    font-size: 1.34rem;
+    color: #333333;
+    line-height: 1.6rem;
+    margin: 1.2rem 0 1rem 0;
+}
+.project-section .project-detail{
+    font-size: .89rem;
+    color: #828282;
+    margin-bottom: 2rem;
+    line-height: 1rem;
+}
+.project-section button{
+    width: 4rem;
+    height: 2rem;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+.project-section .btn-demo{
+    background-color: #2F80ED;
+    color: #FFFFFF;
+}
+.project-section .btn-code{
+    background-color: #FFFFFF;
+    color: #2F80ED;
+    border: 1px solid #2F80ED;
+}
+
+/* skills */
+.skills{
+    background-color: #F2F2F2;
+    display: flex;
+    gap: 1rem;
+}
+.front-end{
+        padding: 1rem;
+        width: 20rem;
+}
+.skill-name{
+    font-weight: 700;
+    color: #4F4F4F;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.skill-tech{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .3rem;
+}
+.skill-tech-name{
+    font-size: .89rem;
+    color: #4F4F4F;
+}
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10rem;
+    height: .4rem;
+    border-radius: 1rem;
+
+  }
+progress[value]::-webkit-progress-bar{
+    background-color: #2F80ED;
+}
+.design{
+    padding: 1rem;
+    width: 20rem;
+}
+
+/* Hobbies */
+.hobbies{
+    max-width: 23rem;
+    padding: 1.2rem;
+    overflow: hidden;
+}
+.hobby-head{
+    font-size: 1.34rem;
+    color: #4F4F4F;
+    margin-bottom: 1.35rem;
+}
+.hobby-section img{
+    width: 20rem;
+    height: 7.7rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 1.35rem;
+}
+.hobby-name{
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: .55rem;
+}
+.hobby-detail{
+    color: #828282;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* blog */
+
+.blog{
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.blog-head{
+    padding: 1.2rem;
+    font-size: 1rem;
+    color: #4F4F4F;
+}
+.blog-section{
+    display: flex;
+    padding: 1.8rem 1.2rem;
+}
+.blog-section img{
+    height: 18rem;
+    width: 21.6rem;
+    object-fit: cover;
+}
+.blog-define{
+    color: #E0E0E0;
+    font-size: .89rem;
+    line-height: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+.blog-title{
+    color: #333333;
+    font-size: 1.34rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.45rem;
+    padding-right: 5rem;
+}
+.blog-detail{
+    color: #828282;
+    font-size: .89rem;
+    line-height: 1.1rem;
+    margin-bottom: 1.17rem;
+}
+.blog-detail p{
+    margin: .5rem 0;
+}
+.blog-body a{
+    font-size: .89rem;
+    line-height: 1.1rem;
+}
+.blog-body{
+    width: 17rem;
+}
+.right{
+    width: 60%;
+}
+.left{
+    width: 40%;
+}
+
+@media screen and (max-width:1300px) {
+    :root{
+        font-size: 16px;
+    }
+    .skills{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:1000px) {
+    main{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100% ;
+        height: 30%;
+        gap: 1rem;
+
+    }
+    .profile .pic{
+        width: 40%;
+        height: 100%;
+    }
+    .profile .details{
+        width: 60%;
+    }
+    .profile .contacts{
+        width: 60%;
+    }
+    .profile .description{
+        width: 60%;
+    }
+    .skills{
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+    .project{
+        width: 90%;
+    }
+    .blog{
+        width: 90%;
+    }
+    .blog-section{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:800px){
+    .left{
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .profile{
+        display: block;
+        max-width: 23rem;
+        height: 35rem;
+    }
+    .profile .pic{
+        height: 50%;
+        width: 100%;
+        background-size: cover;
+        background-position:center;
+    }
+    .profile .details{
+        width: 100%;
+    }
+    .profile .contacts{
+        width: 100%;
+    }
+    .profile .description{
+        width: 100%;
+    }
+    .skills{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px){
+    .hobby-section img{
+        width: 100%;
+    }
+    .project-section{
+        flex-direction: column;
+    }
+    .blog-section{
+        flex-direction: column-reverse;
+        height: 80%;
+    }
+    .blog-section img{
+        width: 100%;
+        height: 40%;
+    }
+    .blog-body{
+        width: 100%;
+    }
+}
+

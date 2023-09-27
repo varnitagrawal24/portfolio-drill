@@ -185,9 +185,8 @@ progress[value] {
     width: 10rem;
     height: .4rem;
     border-radius: 1rem;
-
   }
-progress[value]::-webkit-progress-bar{
+progress[value]::-webkit-progress-value{
     background-color: #2F80ED;
 }
 .design{
